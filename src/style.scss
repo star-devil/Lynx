@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 87%);
+  color-scheme: light dark;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.content-box {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+}
+
+/* 全局重置浏览器滚动条，不需要可以删除 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+:hover::-webkit-scrollbar-thumb {
+  display: block;
+  background: hsl(0deg 0% 53% / 40%);
+}
