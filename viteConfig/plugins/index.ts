@@ -14,7 +14,7 @@ export default function () {
   const plugins: PluginOption[] = [
     ...setupCommonPlugins(),
     setupAutoImport(),
-    setupStaticPerf()
+    ...setupStaticPerf()
   ];
 
   return plugins;

@@ -16,16 +16,18 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
+    "@vueuse/integrations": "^12.2.0",
     "pinia": "^2.3.0",
     "pinia-plugin-persistedstate": "^4.2.0",
-    "vue": "^3.5.12"
+    "vue": "^3.5.12",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
     "@eslint/js": "^9.14.0",
     "@spiriit/vite-plugin-svg-spritemap": "^3.0.0",
-    "@types/node": "^22.9.0",
+    "@types/node": "^22.10.2",
     "@vitejs/plugin-vue": "^5.1.4",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.14.0",

@@ -178,10 +178,10 @@ export default [
   // 定义忽略内容
   {
     ignores: [
-      '**/node_modules/**',
+      'node_modules/**',
       '**/dist/**',
       '**/build/**',
-      'public/',
+      'public/**',
       '*.md',
       '.local',
       '.git',
