@@ -1,17 +1,17 @@
 /*
  * @Author: wangqiaoling
- * @Date: 2024-12-24 10:41:23
- * @LastEditTime: 2024-12-24 10:43:44
  * @LastEditors: wangqiaoling
- * @Description: 插件配置
+ * @Description: 插件配置出口
  */
 import type { PluginOption } from 'vite';
 import setupAutoImport from './autoImport';
 import setupCommonPlugins from './common';
 import setupStaticPerf from './staticPerf';
+import setupVueRouter from './vueRouter';
 
 export default function () {
   const plugins: PluginOption[] = [
+    setupVueRouter(),
     ...setupCommonPlugins(),
     setupAutoImport(),
     ...setupStaticPerf()

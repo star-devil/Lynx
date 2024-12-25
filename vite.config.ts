@@ -1,3 +1,8 @@
+/*
+ * @Author: wangqiaoling
+ * @LastEditors: wangqiaoling
+ * @Description:
+ */
 import { defineConfig, loadEnv } from 'vite';
 import viteConfig from './viteConfig';
 

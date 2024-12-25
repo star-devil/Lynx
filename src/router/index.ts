@@ -9,14 +9,15 @@ import {
   createWebHashHistory
 } from 'vue-router';
 import type { App } from 'vue';
-import { basicRoutes } from '@/router/router';
+import { routes } from 'vue-router/auto-routes';
+import { setupRouterHooks } from './routerHooks';
 
 const history =
   import.meta.env.VITE_HASH_ROUTE === 'true'
     ? createWebHashHistory
     : createWebHistory;
 export const router = createRouter({
-  routes: basicRoutes,
+  routes,
   scrollBehavior(to, _from, savedPosition) {
     if (savedPosition) {
       return savedPosition;
@@ -33,7 +34,7 @@ export const router = createRouter({
 
 export function setupRouter(app: App<Element>): void {
   // 路由钩子函数
-  // setupRouterHooks();
+  setupRouterHooks();
   app.use(router);
 }
 

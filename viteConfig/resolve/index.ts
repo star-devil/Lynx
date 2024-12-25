@@ -1,7 +1,7 @@
 /*
  * @Author: wangqiaoling
  * @Date: 2024-12-24 10:06:41
- * @LastEditTime: 2024-12-24 17:47:17
+ * @LastEditTime: 2024-12-25 14:29:11
  * @LastEditors: wangqiaoling
  * @Description: 配置模块解析规则(别名)
  */
@@ -19,7 +19,7 @@ export default function (): Resolve {
   // 别名配置相对于当前文件路径
   const alias: AliasOptions = {
     '@': path.resolve(projectRoot, 'src'),
-    '@v': path.resolve(projectRoot, 'src/views'),
+    '@p': path.resolve(projectRoot, 'src/pages'),
     '@a': path.resolve(projectRoot, 'src/assets')
   };
   return { alias };

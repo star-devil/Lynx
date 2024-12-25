@@ -63,5 +63,7 @@
   "less.validate": false,
   "scss.validate": false,
   "stylelint.ignoreDisables": true,
-  "stylelint.validate": ["css", "scss", "less", "sass", "vue", "html"]
+  "stylelint.validate": ["css", "scss", "less", "sass", "vue", "html"],
+
+  "typescript.preferences.autoImportFileExcludePatterns": ["vue-router/auto$"]
 }

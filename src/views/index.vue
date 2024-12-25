@@ -1,3 +1,8 @@
+<!--
+ * @Author: wangqiaoling
+ * @LastEditors: wangqiaoling
+ * @Description: 首页
+-->
 <script setup lang="ts">
 import VueView from '@a/icons/vue.svg?view';
 import ViteView from '@a/icons/vite.svg?view';
