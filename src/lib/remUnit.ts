@@ -1,7 +1,7 @@
 /*
  * @Author: wangqiaoling
  * @Date: 2024-12-06 14:55:37
- * @LastEditTime: 2024-12-06 14:56:55
+ * @LastEditTime: 2024-12-26 15:36:45
  * @LastEditors: wangqiaoling
  * @Description: 根目录 rem 适配脚本
  */
@@ -10,7 +10,7 @@ class RemAdapter {
   private designWidth: number;
   private rootValue: number;
 
-  constructor(designWidth: number = 1920, rootValue: number = 14) {
+  constructor(designWidth: number = 1920, rootValue: number = 16) {
     this.designWidth = designWidth;
     this.rootValue = rootValue;
     this.init();

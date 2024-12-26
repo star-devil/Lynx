@@ -1,0 +1,248 @@
+{
+  "communication": [
+    {
+      "name": "QQ",
+      "url": "https://im.qq.com/index/#downloadAnchor",
+      "description": "腾讯推出的即时通讯工具",
+      "type": "communication",
+      "typeName": "通讯"
+    },
+    {
+      "name": "QQ-TIM",
+      "url": "https://tim.qq.com/download.html",
+      "description": "TIM，QQ办公简洁版，专注于团队办公协作",
+      "type": "communication",
+      "typeName": "通讯"
+    },
+    {
+      "name": "微信电脑版",
+      "url": "https://pc.weixin.qq.com/",
+      "description": "微信官方推出的PC版",
+      "type": "communication",
+      "typeName": "通讯"
+    }
+  ],
+  "office": [
+    {
+      "name": "飞书",
+      "url": "https://www.feishu.cn/download",
+      "description": "字节跳动开发的企业协作与管理平台",
+      "type": "office",
+      "typeName": "办公"
+    },
+    {
+      "name": "WPS Office",
+      "url": "https://www.wps.cn/",
+      "description": "金山公司推出的办公软件",
+      "type": "office",
+      "typeName": "办公"
+    }
+  ],
+  "security": [
+    {
+      "name": "360安全卫士",
+      "url": "https://weishi.360.cn/",
+      "description": "全方位的电脑安全防护工具",
+      "type": "security",
+      "typeName": "安全"
+    }
+  ],
+  "cloud_storage": [
+    {
+      "name": "百度网盘",
+      "url": "https://pan.baidu.com/download#pan",
+      "description": "大容量的云存储服务平台",
+      "type": "cloud_storage",
+      "typeName": "云存储"
+    }
+  ],
+  "download": [
+    {
+      "name": "迅雷",
+      "url": "https://www.xunlei.com/",
+      "description": "高速下载工具与服务",
+      "type": "download",
+      "typeName": "下载"
+    }
+  ],
+  "video": [
+    {
+      "name": "哔哩哔哩",
+      "url": "https://app.bilibili.com/?spm_id_from=333.1007.0.0",
+      "description": "热门视频分享与弹幕平台",
+      "type": "video",
+      "typeName": "视频"
+    },
+    {
+      "name": "爱奇艺",
+      "url": "https://www.iqiyi.com/appstore.html?vfrm=pcw_home&vfrmblk=712211_download&vfrmrst=",
+      "description": "在线视频播放及下载服务",
+      "type": "entertainment",
+      "typeName": "娱乐"
+    },
+    {
+      "name": "腾讯视频",
+      "url": "https://v.qq.com/download.html",
+      "description": "海量高清影视资源平台",
+      "type": "video",
+      "typeName": "视频"
+    },
+    {
+      "name": "芒果TV",
+      "url": "https://www.mgtv.com/",
+      "description": "湖南卫视旗下在线视频平台",
+      "type": "video",
+      "typeName": "视频"
+    },
+    {
+      "name": "优酷",
+      "url": "https://www.youku.com/",
+      "description": "阿里巴巴旗下的视频网站",
+      "type": "video",
+      "typeName": "视频"
+    },
+    {
+      "name": "搜狐视频",
+      "url": "https://tv.sohu.com/down/",
+      "description": "搜狐旗下的综合视频门户",
+      "type": "video",
+      "typeName": "视频"
+    },
+    {
+      "name": "PPTV聚力",
+      "url": "http://www.pptv.com/",
+      "description": "在线视频点播和直播平台",
+      "type": "video",
+      "typeName": "视频"
+    }
+  ],
+  "music": [
+    {
+      "name": "网易云音乐",
+      "url": "https://music.163.com/#/download",
+      "description": "专注于发现与分享音乐",
+      "type": "music",
+      "typeName": "音乐"
+    },
+    {
+      "name": "QQ音乐",
+      "url": "https://y.qq.com/download/download.html",
+      "description": "腾讯旗下的音乐播放器",
+      "type": "music",
+      "typeName": "音乐"
+    },
+    {
+      "name": "酷狗音乐",
+      "url": "https://www.kugou.com/",
+      "description": "提供高质量音乐播放服务",
+      "type": "music",
+      "typeName": "音乐"
+    },
+    {
+      "name": "酷我音乐",
+      "url": "https://www.kuwo.cn/down",
+      "description": "多元化的音乐播放平台",
+      "type": "music",
+      "typeName": "音乐"
+    }
+  ],
+  "creation": [
+    {
+      "name": "爱拍原创",
+      "url": "https://www.aipai.com/",
+      "description": "游戏视频创作与分享",
+      "type": "creation",
+      "typeName": "创作"
+    },
+    {
+      "name": "快剪辑",
+      "url": "https://kuaijianji.com/",
+      "description": "简单易用的视频剪辑工具",
+      "type": "creation",
+      "typeName": "创作"
+    }
+  ],
+  "design": [
+    {
+      "name": "Photoshop",
+      "url": "https://www.adobe.com/products/photoshop.html",
+      "description": "专业图像处理软件",
+      "type": "design",
+      "typeName": "设计"
+    }
+  ],
+  "work": [
+    {
+      "name": "钉钉",
+      "url": "https://www.dingtalk.com/download?spm=a213l2.13146415.0.0.7f153146Xs2Dnj#/",
+      "description": "阿里巴巴推出的办公协作平台",
+      "type": "work",
+      "typeName": "工作"
+    },
+    {
+      "name": "腾讯会议",
+      "url": "https://meeting.tencent.com/download/",
+      "description": "高效的视频会议软件",
+      "type": "work",
+      "typeName": "工作"
+    },
+    {
+      "name": "网易邮箱大师",
+      "url": "https://mail.163.com/dashi/",
+      "description": "高效邮件管理工具",
+      "type": "work",
+      "typeName": "工作"
+    },
+    {
+      "name": "石墨文档",
+      "url": "https://shimo.im/download",
+      "description": "实时协作的在线文档工具",
+      "type": "work",
+      "typeName": "工作"
+    }
+  ],
+  "study": [
+    {
+      "name": "有道云笔记",
+      "url": "https://note.youdao.com/note-download/",
+      "description": "多端同步的云笔记工具",
+      "type": "study",
+      "typeName": "学习"
+    },
+    {
+      "name": "网易云课堂",
+      "url": "https://study.163.com/",
+      "description": "在线学习与课程平台",
+      "type": "study",
+      "typeName": "学习"
+    },
+    {
+      "name": "印象笔记",
+      "url": "https://www.yinxiang.com/",
+      "description": "高效笔记管理与记录软件",
+      "type": "study",
+      "typeName": "学习"
+    },
+    {
+      "name": "金山词霸",
+      "url": "https://cp.iciba.com/",
+      "description": "经典英语学习工具",
+      "type": "study",
+      "typeName": "学习"
+    },
+    {
+      "name": "知网研学",
+      "url": "https://x.cnki.net/web/search/#/down",
+      "description": "学术学习与研究平台",
+      "type": "study",
+      "typeName": "学习"
+    },
+    {
+      "name": "幕布",
+      "url": "https://mubu.com/apps",
+      "description": "高效的思维导图工具",
+      "type": "study",
+      "typeName": "学习"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "key": "communication",
+    "value": "通讯"
+  },
+  {
+    "key": "office",
+    "value": "办公"
+  },
+  {
+    "key": "security",
+    "value": "安全"
+  },
+  {
+    "key": "cloud_storage",
+    "value": "云存储"
+  },
+  {
+    "key": "download",
+    "value": "下载"
+  },
+  {
+    "key": "video",
+    "value": "视频"
+  },
+  {
+    "key": "music",
+    "value": "音乐"
+  },
+  {
+    "key": "creation",
+    "value": "创作"
+  },
+  {
+    "key": "design",
+    "value": "设计"
+  },
+  {
+    "key": "work",
+    "value": "工作"
+  },
+  {
+    "key": "study",
+    "value": "学习"
+  }
+]

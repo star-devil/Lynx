@@ -1,7 +1,7 @@
 /*
  * @Author: wangqiaoling
  * @Date: 2024-12-24 10:06:41
- * @LastEditTime: 2024-12-25 14:29:11
+ * @LastEditTime: 2024-12-26 16:39:12
  * @LastEditors: wangqiaoling
  * @Description: 配置模块解析规则(别名)
  */
@@ -20,7 +20,9 @@ export default function (): Resolve {
   const alias: AliasOptions = {
     '@': path.resolve(projectRoot, 'src'),
     '@p': path.resolve(projectRoot, 'src/pages'),
-    '@a': path.resolve(projectRoot, 'src/assets')
+    '@a': path.resolve(projectRoot, 'src/assets'),
+    '@dataTypes': path.resolve(projectRoot, 'src/dataTypes'),
+    '@stores': path.resolve(projectRoot, 'src/stores')
   };
   return { alias };
 }

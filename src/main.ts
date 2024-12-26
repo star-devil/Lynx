@@ -6,7 +6,7 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import './tailwind.css';
-import '../lib/remUnit';
+import './lib/remUnit';
 import pinia from './stores';
 import { setupRouter } from './router';
 

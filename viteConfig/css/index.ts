@@ -1,7 +1,7 @@
 /*
  * @Author: wangqiaoling
  * @Date: 2024-12-24 10:27:28
- * @LastEditTime: 2024-12-25 16:26:29
+ * @LastEditTime: 2024-12-26 15:08:44
  * @LastEditors: wangqiaoling
  * @Description: css 配置
  */
@@ -16,7 +16,7 @@ export default function (): CSSOptions {
   const preprocessorOptions = {
     scss: {
       api: 'modern-compiler',
-      additionalData: '@import "@/scss/variables.scss";'
+      additionalData: '@use "@/scss/variables.scss";'
     }
   };
   const postcss = {
@@ -30,7 +30,7 @@ export default function (): CSSOptions {
           'ie >= 8',
           'last 2 versions'
         ],
-        grid: 'no-autoplace'
+        grid: true
       }),
       pxtorem({
         rootValue: 14, // 1rem = 14px

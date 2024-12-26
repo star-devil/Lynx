@@ -3,23 +3,6 @@
  * @LastEditors: wangqiaoling
  * @Description: 首页
 -->
-<script setup lang="ts">
-import searchIcon from '@a/icons/search.svg?view';
-
-const searchQuery = ref('');
-
-const handleSearch = () => {
-  if (searchQuery.value.trim()) {
-    // 这里实现搜索逻辑
-    console.log('Searching for:', searchQuery.value);
-  }
-};
-
-const clearSearch = () => {
-  searchQuery.value = '';
-};
-</script>
-
 <template>
   <div class="min-h-screen bg-base-200 flex flex-col">
     <!-- Header -->
@@ -57,26 +40,12 @@ const clearSearch = () => {
 
       <!-- Search Box -->
       <div class="w-full max-w-4xl">
-        <div class="relative">
-          <input
-            v-model="searchQuery"
-            type="text"
-            class="input input-bordered w-full pl-12 pr-12 rounded-full input-primary h-16 text-gray-200"
-            @keyup.enter="handleSearch"
-          />
-          <div class="absolute left-4 top-1/2 -translate-y-1/2">
-            <searchIcon class="h-6 w-6 text-gray-400" />
-          </div>
-          <div
-            v-if="searchQuery"
-            class="absolute right-4 top-1/2 -translate-y-1/2 flex gap-2"
-          >
-            <button @click="clearSearch"></button>
-          </div>
-        </div>
+        <SearchInput />
 
-        <!-- Search Buttons -->
-        <div class="gap-4 mt-8 min-h-72"></div>
+        <!-- Search Results -->
+        <div class="gap-4 mt-8 min-h-72">
+          <SearchResult />
+        </div>
       </div>
     </main>
 
