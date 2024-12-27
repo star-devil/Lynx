@@ -8,7 +8,7 @@
     <input
       v-model="searchQuery"
       type="text"
-      class="input input-bordered w-full pl-12 pr-12 rounded-full input-primary h-16 text-gray-200 text-lg"
+      class="input input-bordered w-full pl-12 pr-12 rounded-full input-secondary h-16 text-gray-200 text-base"
       @keyup.enter="jumpToFirstWebsite"
     />
     <div class="absolute left-4 top-1/2 -translate-y-1/2">

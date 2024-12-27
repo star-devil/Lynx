@@ -4,7 +4,10 @@
  * @Description: 首页
 -->
 <template>
-  <div class="min-h-screen bg-base-200 flex flex-col">
+  <div
+    class="h-screen flex flex-col bg-cover bg-no-repeat bg-center"
+    style="background-image: url('/src/assets/images/bg.png')"
+  >
     <!-- Header -->
     <header class="w-full p-4 flex justify-end items-center gap-4">
       <button class="btn btn-ghost">
@@ -30,11 +33,8 @@
     >
       <!-- Logo -->
       <div class="mb-8">
-        <h1 class="text-8xl font-bold">
-          <span class="text-blue-600">L</span>
-          <span class="text-red-500">y</span>
-          <span class="text-yellow-500">n</span>
-          <span class="text-green-500">x</span>
+        <h1 class="text-8xl">
+          <span>Lynx</span>
         </h1>
       </div>
 
@@ -50,10 +50,13 @@
     </main>
 
     <!-- Footer -->
-    <footer class="text-sm text-gray-600">
-      <div class="px-8 py-3 flex justify-center">
-        <div class="flex gap-6">© 2024 EGG | star-devil</div>
-      </div>
+    <footer class="footer footer-center text-sm p-4 text-gray-600">
+      <aside>
+        <p>
+          Copyright © <span>{{ new Date().getFullYear() }}</span> - All right
+          reserved by EGG | star-devil
+        </p>
+      </aside>
     </footer>
   </div>
 </template>

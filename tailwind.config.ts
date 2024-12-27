@@ -9,19 +9,16 @@ import daisyui from 'daisyui';
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {
-      fontSize: {
-        // 调整基础字体大小
-        base: {
-          sm: '14px',
-          md: '16px',
-          lg: '16px'
-        }
-      }
+    screens: {
+      sm: '1024px', // 适配老旧笔记本或平板 1024x768
+      md: '1280px', // 适配720p/1080p笔记本 1280x720/1920x1080
+      lg: '1536px', // 适配2K显示器 2560x1440
+      xl: '1920px', // 适配4K显示器 3840x2160
+      '2xl': '2560px' // 适配超宽屏显示器
     }
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ['dark']
+    themes: ['dracula']
   }
 };

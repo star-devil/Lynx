@@ -11,7 +11,7 @@
       style="width: calc(33.333% - 0.5rem)"
     >
       <div
-        class="card glass bg-base-50 hover:cursor-pointer hover:text-white transition-colors duration-500 w-full"
+        class="card glass bg-base-50 text-gray-400 hover:cursor-pointer hover:text-white transition-colors duration-500 w-full"
         @click="gotoSite(item.url)"
       >
         <div class="card-body flex flex-row items-center">
