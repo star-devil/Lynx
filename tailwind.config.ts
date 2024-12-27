@@ -1,7 +1,7 @@
 /*
  * @Author: wangqiaoling
  * @LastEditors: wangqiaoling
- * @Description: tailwindcss 配置
+ * @Description: tailwindcss 配置，使用了daisyui
  */
 import daisyui from 'daisyui';
 
@@ -15,13 +15,13 @@ export default {
         base: {
           sm: '14px',
           md: '16px',
-          lg: '18px'
+          lg: '16px'
         }
       }
     }
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ['light', 'dark', 'fantasy']
+    themes: ['dark']
   }
 };

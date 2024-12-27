@@ -43,7 +43,7 @@
         <SearchInput />
 
         <!-- Search Results -->
-        <div class="gap-4 mt-8 min-h-72">
+        <div class="gap-4 mt-8 min-h-72 max-h-96">
           <SearchResult />
         </div>
       </div>
@@ -51,9 +51,8 @@
 
     <!-- Footer -->
     <footer class="text-sm text-gray-600">
-      <div class="px-8 py-3 flex justify-between">
-        <div class="flex gap-6"></div>
-        <div class="flex gap-6"></div>
+      <div class="px-8 py-3 flex justify-center">
+        <div class="flex gap-6">© 2024 EGG | star-devil</div>
       </div>
     </footer>
   </div>

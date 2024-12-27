@@ -10,7 +10,7 @@
     {
       "name": "QQ-TIM",
       "url": "https://tim.qq.com/download.html",
-      "description": "TIM，QQ办公简洁版，专注于团队办公协作",
+      "description": "QQ简洁版",
       "type": "communication",
       "typeName": "通讯"
     },
@@ -26,7 +26,7 @@
     {
       "name": "飞书",
       "url": "https://www.feishu.cn/download",
-      "description": "字节跳动开发的企业协作与管理平台",
+      "description": "字节推出的企业协作平台",
       "type": "office",
       "typeName": "办公"
     },
@@ -42,7 +42,14 @@
     {
       "name": "360安全卫士",
       "url": "https://weishi.360.cn/",
-      "description": "全方位的电脑安全防护工具",
+      "description": "全方位的电脑安全防护",
+      "type": "security",
+      "typeName": "安全"
+    },
+    {
+      "name": "火绒安全",
+      "url": "https://www.huorong.cn/person",
+      "description": "畅享纯粹终端防护",
       "type": "security",
       "typeName": "安全"
     }
@@ -52,6 +59,13 @@
       "name": "百度网盘",
       "url": "https://pan.baidu.com/download#pan",
       "description": "大容量的云存储服务平台",
+      "type": "cloud_storage",
+      "typeName": "云存储"
+    },
+    {
+      "name": "阿里云盘",
+      "url": "https://www.aliyundrive.com/download",
+      "description": "速度快、不打扰、够安全",
       "type": "cloud_storage",
       "typeName": "云存储"
     }
@@ -90,7 +104,7 @@
     {
       "name": "芒果TV",
       "url": "https://www.mgtv.com/",
-      "description": "湖南卫视旗下在线视频平台",
+      "description": "湖南卫视旗下的视频平台",
       "type": "video",
       "typeName": "视频"
     },
@@ -160,6 +174,13 @@
       "description": "简单易用的视频剪辑工具",
       "type": "creation",
       "typeName": "创作"
+    },
+    {
+      "name": "剪映",
+      "url": "https://www.capcut.cn/",
+      "description": "全能易用的桌面剪辑软件",
+      "type": "creation",
+      "typeName": "创作"
     }
   ],
   "design": [
@@ -175,7 +196,7 @@
     {
       "name": "钉钉",
       "url": "https://www.dingtalk.com/download?spm=a213l2.13146415.0.0.7f153146Xs2Dnj#/",
-      "description": "阿里巴巴推出的办公协作平台",
+      "description": "高效办公协作平台",
       "type": "work",
       "typeName": "工作"
     },
@@ -197,6 +218,13 @@
       "name": "石墨文档",
       "url": "https://shimo.im/download",
       "description": "实时协作的在线文档工具",
+      "type": "work",
+      "typeName": "工作"
+    },
+    {
+      "name": "幕布",
+      "url": "https://mubu.com/apps",
+      "description": "高效的思维导图工具",
       "type": "work",
       "typeName": "工作"
     }
@@ -238,9 +266,9 @@
       "typeName": "学习"
     },
     {
-      "name": "幕布",
-      "url": "https://mubu.com/apps",
-      "description": "高效的思维导图工具",
+      "name": "智慧树",
+      "url": "https://www.zhihuishu.com/DownloadApp.html",
+      "description": "大型的学分课程服务平台",
       "type": "study",
       "typeName": "学习"
     }

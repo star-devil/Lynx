@@ -57,7 +57,7 @@ const handleSearch = (query: string) => {
     {
       name: '欢迎提交反馈',
       url: 'https://github.com/star-devil/Lynx/issues',
-      description: '暂未查询到指定应用下载地址',
+      description: '未查到指定应用下载地址',
       type: 'github',
       typeName: 'GIT'
     }
@@ -72,8 +72,6 @@ const handleSearch = (query: string) => {
       .flat()
       .filter((item) => item.name.toLowerCase().includes(queryText));
     result = res.length > 0 ? res : emptyResult;
-  } else {
-    result = emptyResult;
   }
 
   resultStore.changeResult(result);
@@ -81,6 +79,7 @@ const handleSearch = (query: string) => {
 
 const clearSearch = () => {
   searchQuery.value = '';
+  resultStore.changeResult([]);
 };
 
 const jumpToFirstWebsite = () => {

@@ -1,7 +1,7 @@
 /*
  * @Author: wangqiaoling
  * @Date: 2024-12-24 10:27:28
- * @LastEditTime: 2024-12-26 15:08:44
+ * @LastEditTime: 2024-12-27 10:11:49
  * @LastEditors: wangqiaoling
  * @Description: css 配置
  */
@@ -21,13 +21,14 @@ export default function (): CSSOptions {
   };
   const postcss = {
     plugins: [
+      tailwindcss(),
       autoprefixer({
         overrideBrowserslist: [
-          'Android 4.1',
-          'iOS 7.1',
+          '> 1%',
           'Chrome > 31',
           'ff > 31',
-          'ie >= 8',
+          'not ie 11',
+          'not op_mini all',
           'last 2 versions'
         ],
         grid: true
@@ -38,8 +39,7 @@ export default function (): CSSOptions {
         exclude: '/node_modules/*', // 排除node_modules
         mediaQuery: false, // 是否要在媒体查询中转换px
         minPixelValue: 2 // 设置要转换的最小像素值
-      }),
-      tailwindcss()
+      })
     ]
   };
   return { preprocessorOptions, postcss };

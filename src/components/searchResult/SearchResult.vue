@@ -11,11 +11,11 @@
       style="width: calc(33.333% - 0.5rem)"
     >
       <div
-        class="card bg-base-100 shadow-xl hover:cursor-pointer hover:text-white transition-colors duration-500 w-full"
+        class="card glass bg-base-50 hover:cursor-pointer hover:text-white transition-colors duration-500 w-full"
         @click="gotoSite(item.url)"
       >
         <div class="card-body flex flex-row items-center">
-          <div class="w-8 rounded">
+          <div class="w-8">
             <img
               class="w-8"
               :src="`https://www.google.com/s2/favicons?domain=${item.url}&sz=128`"
@@ -23,7 +23,9 @@
           </div>
           <div>
             <h2 class="card-title">{{ item.name }}</h2>
-            <p>{{ item.description }}</p>
+            <p>
+              {{ item.description }}
+            </p>
           </div>
         </div>
       </div>
@@ -39,8 +41,6 @@ const resultStore = useResultStore();
 const currentResult = computed(() => {
   return resultStore.getResult;
 });
-
-console.log('currentResult---', currentResult.value);
 
 const gotoSite = (url: string) => {
   window.open(url, '_blank');
